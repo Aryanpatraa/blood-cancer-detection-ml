@@ -40,6 +40,12 @@ To avoid data leakage, features used in label creation were removed before model
 * Scikit-learn
 * Matplotlib, Seaborn
 
+## 📊 Model Performance
+
+- Logistic Regression: ~72%
+- SVM: ~91%
+- Random Forest: ~85–95%
+
 🎯 Conclusion
 
 Machine learning can effectively analyze hematological parameters to support early detection of blood cancer.
