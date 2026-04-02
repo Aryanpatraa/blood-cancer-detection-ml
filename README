@@ -1,0 +1,47 @@
+ Machine Learning-Based Blood Cancer Detection
+
+📌 Project Overview
+
+This project focuses on detecting hematological malignancies using machine learning techniques based on Complete Blood Count (CBC) parameters.
+
+📊 Dataset
+
+* Source: Mendeley Data
+* Features include WBC, RBC, Hemoglobin, Platelets, etc.
+* A target variable (Diagnosis) was engineered using clinically relevant thresholds.
+
+⚙️ Methodology
+
+1. Data preprocessing and cleaning
+2. Exploratory Data Analysis (EDA)
+3. Feature engineering (Diagnosis creation)
+4. Feature scaling
+5. Model training using:
+
+   * Logistic Regression
+   * Decision Tree
+   * Support Vector Machine
+   * Random Forest
+6. Model evaluation using accuracy, confusion matrix, and classification report
+
+⚠️ Important Note
+
+To avoid data leakage, features used in label creation were removed before model training.
+
+📈 Results
+
+* Achieved realistic accuracy using Random Forest
+* Validated using cross-validation
+
+🚀 Technologies Used
+
+* Python
+* Pandas, NumPy
+* Scikit-learn
+* Matplotlib, Seaborn
+
+🎯 Conclusion
+
+Machine learning can effectively analyze hematological parameters to support early detection of blood cancer.
+
+---
